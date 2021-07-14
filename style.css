@@ -46,6 +46,7 @@ Home banner section styles
   width: 556px;
   height: 438px;
   margin-right: 140px;
+  margin-bottom: 86px;
 }
 
 /*-------------
@@ -213,6 +214,10 @@ Card hover transition styles
 .video-item:hover .play {
   visibility: visible;
 }
+.video-item a {
+  text-decoration: none;
+  color: #18191f;
+}
 
 /*-------------------*/
 
@@ -252,6 +257,11 @@ news-section
 }
 .news-headline {
   margin: 0;
+}
+
+.news-details a {
+  text-decoration: none;
+  color: #18191f;
 }
 
 /*---------------*/
@@ -303,7 +313,7 @@ Responsiveness style for break point 688px as leader board project shown
 @media only screen and (max-width: 688px) {
   .home-section {
     flex-direction: column;
-    width: 100%px;
+    width: 360%px;
     height: 695px;
   }
 
