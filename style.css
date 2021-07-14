@@ -450,6 +450,12 @@ body {
     align-items: center;
   }
 
+  .video-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
   .play {
     top: 8%;
   }
