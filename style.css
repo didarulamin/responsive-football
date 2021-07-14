@@ -392,7 +392,7 @@ body {
     align-items: center;
   }
   .news-item {
-    width: 400px;
+    width: 100%;
   }
   .latest-news {
     width: 80%;
