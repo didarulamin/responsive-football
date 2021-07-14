@@ -146,6 +146,125 @@ body {
   text-align: left;
 }
 
+.featured-videos {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.video-item {
+  box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.15);
+  margin: 1%;
+  /* width: 450px; */
+  overflow: hidden;
+
+  position: relative;
+}
+/* 
+.video-item h1 {
+  color: #dc0714;
+  padding: 15px;
+  margin: 0;
+} */
+
+.video-item p {
+  margin: 0;
+}
+
+.video-category {
+  color: #dc0714;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.video-title {
+  padding: 5px;
+}
+
+.video-date {
+  padding: 5px;
+}
+
+.video-item img {
+  width: 100%;
+}
+
+.play {
+  position: absolute;
+  visibility: hidden;
+  /* opacity: 0; */
+  top: 20%;
+  width: 40px;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.video-item:hover .play-video {
+  transform: scale(1.05);
+  transition: 1s transform;
+
+  /* opacity: 1; */
+}
+
+.video-item:hover .play {
+  visibility: visible;
+
+  /* opacity: 1; */
+}
+
+/* .video-item p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+} */
+
+/* news-section */
+
+.latest-news {
+  width: 80%;
+  margin: 70px auto;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.news-item {
+  display: flex;
+  background-color: #fef8f8;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  width: 450px;
+}
+
+.news-thumbnail {
+  margin-right: 10px;
+}
+.news-details {
+  padding: 15px;
+}
+
+.news-details span {
+  color: red;
+}
+.news-headline {
+  margin: 0;
+}
+
 .footer {
   height: 213px;
   width: 484px;
@@ -238,6 +357,33 @@ body {
     width: 150px;
     height: 63px;
   }
+
+  .video-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-item {
+    margin: 3%;
+    /* overflow: hidden; */
+  }
+
+  .video-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .featured-videos {
+    width: 70%;
+  }
+
+  .video-item:hover .play-video {
+    transform: scale(1.05);
+    transition: 1s transform;
+
+    /* opacity: 1; */
+  }
 }
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -283,5 +429,9 @@ body {
     grid-template-columns: repeat(2, 330px);
     justify-content: center;
     align-items: center;
+  }
+
+  .play {
+    top: 8%;
   }
 }
