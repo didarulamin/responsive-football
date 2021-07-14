@@ -397,6 +397,7 @@ Responsiveness style for break point 688px as leader board project shown
   .footer img {
     width: 150px;
     height: 63px;
+    margin-bottom: 10px;
   }
 }
 
