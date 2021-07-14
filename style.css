@@ -94,7 +94,7 @@ Animated button classes
 /* home hover effect */
 .home-img:hover {
   transform: scale(0.95);
-  transition: 0.5s transform;
+  transition: transform 0.5s ease-in-out;
 }
 /*--------------*/
 
