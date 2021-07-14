@@ -298,7 +298,7 @@ Footer Styles
 /*---------------*/
 
 /*-----------------
-Responsiveness style for break point 688px
+Responsiveness style for break point 688px as leader board project shown
 ------------------------*/
 @media only screen and (max-width: 688px) {
   .home-section {
@@ -403,7 +403,8 @@ Responsiveness style for break point 688px
 /*----------------------*/
 
 /*--------------------
-Responsiveness style for break point 688px and 992px 
+Responsiveness style for break point 688px and 992px as in leader board project shown
+
 ------------------------------------------------------*/
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
