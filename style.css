@@ -298,7 +298,7 @@ Footer Styles
 /*---------------*/
 
 /*-----------------
-responsiveness styles for mobile
+Responsiveness style for break point 688px
 ------------------------*/
 @media only screen and (max-width: 688px) {
   .home-section {
@@ -379,7 +379,9 @@ responsiveness styles for mobile
 
     margin: 70px auto;
   }
-
+  .news-item {
+    width: 400px;
+  }
   .news-headline {
     font-size: 15px;
   }
@@ -401,7 +403,7 @@ responsiveness styles for mobile
 /*----------------------*/
 
 /*--------------------
-Responsiveness style for tablet and larger than screen of tablet
+Responsiveness style for break point 688px and 992px 
 ------------------------------------------------------*/
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
