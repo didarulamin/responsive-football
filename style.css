@@ -91,6 +91,11 @@ Animated button classes
   right: 0;
 }
 
+/* home hover effect */
+.home-img:hover {
+  transform: scale(0.95);
+  transition: 0.5s transform;
+}
 /*--------------*/
 
 /*------------------
